@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:greenyellow;
+    background-color: black;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    background-color: black;
+    color:white;
+}
+
+h3 {
+    background-color: black;
+    color: white;
+}
+
+div {
+    background-color: aliceblue;
+    display:flex;
+    justify-content: flex-start;
+}
+
+img {
+    height:300px;
+    width: 300px;
+    box-shadow: 5px 10px;
+    
+}
+
+.heading {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{background-color: greenyellow;
+    font-size: 25px;
+}
+
+p {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+table, tr, td, th {
+    border: 5px solid black;
+    padding:5px;
+    text-align: center;
+}
+
+.rightbox {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
